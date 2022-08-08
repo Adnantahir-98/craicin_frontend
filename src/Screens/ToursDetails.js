@@ -27,7 +27,7 @@ const Tours = () => {
         seniors,
         students,
         leavingOn
-    }).then(res => res.data, setSuccessMsg("Sumitted! Please fill more details on next page, We'll redirect you shortly"))
+    }).then(res => res.data, setSuccessMsg('Sumitted! Please fill more details on next page'))
     .catch(err => console.log(err))
     setTimeout(() => {
         navigate('/checkout')
